@@ -132,17 +132,24 @@ a {
 
 .goto {
   cursor: pointer;
-  background-color: #f5c013;
-  color: #28527a;
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
   font-size: 10mm;
   text-align: center;
 }
+
+.goto:hover {
+  background-color: #008cba;
+  color: white;
+}
+
 .contactaddr {
   font-size: 30px;
 }
-img{
-    transition: transform .2s;
+img {
+  transition: transform 0.2s;
 }
-img:hover{
-    transform: scale(1.1)
+img:hover {
+  transform: scale(1.1);
 }
