@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); /*Dancing Script (name)*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap"); /*Quicksand (h1)*/
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"); /*DotGothic16 (h2)*/
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap"); /*Pangolin (p)*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding-top: 800px;
+  text-align: center;
+}
+
+.profile {
+  width: 600px;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+.profilepic {
+  width: 200px;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+#welcome {
+  position: absolute;
+  overflow: hidden;
+  height: 800px;
+  color: aquamarine;
+  text-align: center;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.83;
+  background: rgb(0, 212, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: Quicksand;
+  font-weight: 300;
+}
+
+#name {
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: Dancing Script;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: DotGothic16;
+}
+
+#bio {
+  padding: 50px;
+  text-align: center;
+  font-size: 42px;
+}
+
+p {
+  max-width: 450px;
+  margin: 25px auto;
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: Pangolin;
+}
+
+.parallax-inner {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu {
+  list-style: none;
+  font-family: Cormorant Unicase;
+  top: 10px;
+  right: 30px;
+  position: fixed;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.links {
+  float: left;
+  color: #8ac4d0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: larger;
+}
+
+.links:hover {
+  background-color: #c5850d;
+}
+
+#hobby,
+#work {
+  text-align: center;
+}
+
+.line {
+  height: 6px;
+  background-color: #3173ba;
+  width: 70px;
+  margin: 8px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #8ac4d0;
+}
+
+.goto {
+  cursor: pointer;
+  background-color: #f5c013;
+  color: #28527a;
+  font-size: 10mm;
+  text-align: center;
+}
+.contactaddr {
+  font-size: 30px;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(1.1)
+}
