@@ -101,7 +101,7 @@ p {
 
 .links {
   float: left;
-  color: #8ac4d0;
+  color: #5183f0;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 9px;
@@ -110,7 +110,7 @@ p {
 }
 
 .links:hover {
-  background-color: #c5850d;
+  background-color: #ec5316;
 }
 
 #hobby,
@@ -152,4 +152,10 @@ img {
 }
 img:hover {
   transform: scale(1.1);
+}
+.emailicon {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  margin-bottom: -10px;
 }
