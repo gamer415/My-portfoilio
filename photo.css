@@ -1,0 +1,45 @@
+.head {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: Quicksand;
+  font-weight: 300;
+}
+
+.menu1 {
+  list-style: none;
+  font-family: Cormorant Unicase;
+  top: 10px;
+  right: 30px;
+  position: fixed;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.links1 {
+  float: left;
+  color: #5183f0;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 19px;
+}
+
+.links1:hover {
+  background-color: #ec5316;
+}
+
+.a1 {
+  text-decoration: none;
+  color: #8ac4d0;
+}
+
+#gallery img {
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
