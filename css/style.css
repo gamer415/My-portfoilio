@@ -7,33 +7,20 @@ html {
 
 body {
   margin: 0;
-  padding-top: 800px;
   text-align: center;
-}
-
-.profile {
-  width: 600px;
-  margin: 50px;
-  border-radius: 50%;
 }
 
 .profilepic {
-  width: 200px;
-  margin: 50px;
   border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
 }
 
 #welcome {
-  position: absolute;
-  overflow: hidden;
-  height: 800px;
   color: aquamarine;
   text-align: center;
-  left: 0;
-  top: 0;
   bottom: 0;
-  right: 0;
-  opacity: 0.83;
   background: rgb(0, 212, 255);
   background: radial-gradient(
     circle,
@@ -44,6 +31,7 @@ body {
   display: table;
   width: 100%;
   height: 100%;
+  z-index: 9;
 }
 
 h1 {
@@ -51,6 +39,7 @@ h1 {
   line-height: 1.2;
   font-family: Quicksand;
   font-weight: 300;
+  padding-bottom: 10px;
 }
 
 #name {
@@ -59,12 +48,18 @@ h1 {
   font-family: Dancing Script;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: DotGothic16;
+}
+
 #bio {
   padding: 50px;
   text-align: center;
   font-size: 42px;
 }
-
 p {
   max-width: 450px;
   margin: 25px auto;
