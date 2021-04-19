@@ -3,9 +3,29 @@
     <title>My Favourite Hobby</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="/img/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0477C2;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pranav's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/#welcome">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/#bio">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="/#inspiration">My Inspiration</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/my-projects.html">My Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="/photos.html">Photos</a></li>
+            <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>      
+          </ul>
+        </div>
+      </div>
+    </nav>
     <section id="welcome" class="parallax-container">
       <div class="parralax-inner">
         <img src="./img/Profile picture.jpg" class="profilepic" />
@@ -17,6 +37,7 @@
         </h1>
       </div>
     </section>
+    <br>
     <section id="work">
       <h1>Wonders Of the World</h1>
       <div class="line"></div>
@@ -29,11 +50,12 @@
       ></iframe>
       <br /><br />
       <button
-        class="goto"
+        class="goto btn fs-2"
         onclick="location.href = 'https://traliotube.github.io/C-55/';"
       >
         Explore The wonders
       </button>
+      <br></br>
       <h1>Thomas Alva Edison Bio</h1>
       <div class="line"></div>
       <p>
@@ -48,7 +70,7 @@
       ></iframe>
       <br /><br />
       <button
-        class="goto"
+        class="goto btn fs-2"
         onclick="location.href = 'https://traliotube.github.io/C-50/';"
       >
         Check out the bio of Thomas Edison
@@ -64,6 +86,7 @@
         allow="microphone;"
         src="https://console.dialogflow.com/api-client/demo/embedded/987914be-0972-4524-a972-8db432bb62cb"
       ></iframe>
+      <br></br>
       <h1>Emeralds And rubies</h1>
       <div class="line"></div>
       <p>
@@ -72,16 +95,9 @@
       </p>
       <span><img src="img/emeralds-rubies/mainscreen.png" alt="" /><img src="img/emeralds-rubies/playing screen.png" alt="" /></span>
       <br></br>
-      <button class="goto" onclick="location.href='https://bit.ly/2QhNYGg';">Download APK</button>
+      <button class="goto btn fs-2" onclick="location.href='https://bit.ly/2QhNYGg';">Download APK</button>
+      <br></br>
       <p><i>Note: I don't have a play store developer account so I am an uploading APK. Please Download APK and follow instructions. Sorry for the inconvenience caused.</i></p>
     </section>
-    <ul class="menu">
-      <li class="links"><a href="/#welcome">Home</a></li>
-      <li class="links"><a href="/#bio">About Me</a></li>
-      <li class="links"><a href="/#inspiration">My Inspiration</a></li>
-      <li class="links"><a href="/my-projects.html">My Work</a></li>
-      <li class="links"><a href="/photos.html">Photos</a></li>
-      <li class="links"><a href="/#contact">Contact</a></li>
-    </ul>
   </body>
 </html>
